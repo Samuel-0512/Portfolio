@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/1188f2fdcd.js" crossorigin="anonymous"></script>
+    <title>Ademola Samuel</title>
+</head>
+<body class="container">
+    <!-- toggler for mobile view -->
+    <div class="hamburger-menu">
+        <span class="bars"></span>
+        <span class="bars"></span>
+        <span class="bars"></span>
+    </div>
+
+    <!-- side nav -->
+    <div class="side-nav">
+        <!-- profile section -->
+        <div class="profile">
+            <img src="./assets/1726596301076.jpg" alt="profile-img" class="profile-img">
+            <div class="name-box">
+                <p>Ademola Samuel</p>
+            </div>
+            <div class="social-container">
+                <a href="/" class="social-link">
+                    <i class="fa fa-facebook" aria-hidden="true" ></i>
+                </a>
+                <a href="/" class="social-link">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="/" class="social-link">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+                <a href="/" class="social-link">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="/" class="social-link">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+        <!-- navigation section -->
+        <div class="nav-menu">
+            <ul class="nav-items">
+                <li class="nav-link"><a onclick = switchToWindow1() class="links">
+                    Home
+                </a></li>
+                <li class="nav-link"><a onclick = switchToWindow2() class="links">
+                    About
+                </a></li>
+                <li class="nav-link"><a onclick = switchToWindow3() class="links">
+                    Services
+                </a></li>
+                <li class="nav-link"><a onclick = switchToWindow4() class="links">
+                    Resume
+                </a></li>
+                <li class="nav-link"><a onclick = switchToWindow5() class="links">
+                    Projects
+                </a></li>
+                <li class="nav-link"><a onclick = switchToWindow6() class="links">
+                    Contact
+                </a></li>
+            </ul>
+        </div>
+        <div class="toggler">
+            <a onclick= switchMode()>
+                <i class="fa fa-moon-o" aria-hidden="true"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- main window section-->
+    <div class="main-window">
+        <!-- windows-1 home -->
+        <div class="window-1">
+            <div class="home">
+                <div class="text-box">
+                    <h1>i'm Ademola samuel</h1>
+                    <p>A front-end web developer specialized in building front end of 
+                    web applications for overall effectiveness of web Projects</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- windows-2 About -->
+        <div class="window-2">
+            <div class="about">
+                <div class="description">
+                    <h1>About me</h1>
+                    <h2>Get to know me_</h2>
+                    <p> My name is Ademola Samuel. I'm a Passionate and detail-oriented 
+                        Frontend Web Developer based in Nigeria.<br>
+                        I have acquired skills necessary to enable crafting of engaging, 
+                        responsive, and user-friendly web applications. I thrive
+                        in collaborative environments and I'am committed to staying
+                        updated with industry trends.
+                    </p>
+                </div>
+                <div class="skills-container">
+                    <h1>My Skills</h1>
+                    <div class="skills">
+                        <div class="skill-set">
+                            <!--check for posible svg files to replace images-->
+                            <div class="html">
+                                <h3>HTML</h3>
+                                <img class="html_logo" src="./assets/html.png" alt="icon">
+                            </div>
+                            <div class="css">
+                                <h3>CSS</h3>
+                                <img class="css_logo" src="./assets/css.png" alt="icon">
+                            </div>
+                        </div>
+                        <div class="skill-set">
+                            <div class="javascript">
+                                <h3>JAVASCRIPT</h3>
+                                <img class="js_logo" src="./assets/javascript.png" alt="icon">
+                            </div>
+                            <div class="php">
+                                <h3>PHP</h3>
+                                <img class="php_logo" src="./assets/php.png" alt="icon">
+                            </div>
+                            <div class="react">
+                                <h3>REACT</h3>
+                                <img class="react_logo" src="./assets/react.png" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+
+        <!-- windows-3 services -->
+        <div class="window-3" id>
+            <div class="services">
+                <div class="services-header">
+                    <h1>My Services</h1>
+                    <h2>What I can do_</h2>
+                </div>
+                <div class="services-container">
+                    <div class="services-row">
+                        <div class="content-1">
+                            <img class="svg" src="./assets/SVG/undraw_responsive_re_e1nn (1).svg" alt="">
+                            <h3>Responsive Design</h3>
+                            <p>Skilled in creating designs that work on<br>various devices and screen sizes</p>
+                        </div>
+                        <div class="content-2">
+                            <img class="svg" src="./assets/SVG/undraw_content_team_re_6rlg (1).svg" alt="">
+                            <h3>Performance Optimization</h3>
+                            <p>Knowledgeable in optimizing web performance and load times.</p>
+                        </div>
+                        <div class="content-3">
+                            <img class="svg" src="./assets/SVG/undraw_code_review_re_woeb (1).svg" alt="">
+                            <h3>Creative Design</h3>
+                            <p>Build interfaces with optimal viewing experience, intuitive UI/UX and
+                            attention to details.</p>
+                        </div>
+                    </div>
+                    <div class="services-row">
+                        <div class="content-4">
+                            <img class="svg" src="./assets/SVG/undraw_code_review_re_woeb (1).svg" alt="">
+                            <h3>Version Control</h3>
+                            <p>Proficient with Git and GitHub for source code management and collaboration.</p>
+                        </div>
+                        <div class="content-5">
+                            <img class="svg" src="./assets/SVG/undraw_responsive_re_e1nn (1).svg" alt="">
+                            <h3>Cross-Browser Compatibility</h3>
+                            <p>Ensuring consistent functionality and appearance across different browsers.</p>
+                        </div>
+                        <div class="content-6">
+                            <img class="svg" src="./assets/SVG/undraw_code_review_re_woeb (1).svg" alt="">
+                            <h3>Clean Code</h3>
+                            <p>Ensure Readability, Modularity and Reusability of code.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- windows-4 Resume -->
+        <div class="window-4">
+            <div class="resume">
+                <h1>Resume Page</h1>
+                <div class="resume-container">
+                    <iframe class="pdf" src="./assets/Resume.pdf" frameborder="0"></iframe>
+                    <section class="certifications">
+                        <h2>Certifications</h2>
+                        <img class="certificate" src="./assets/Certificate.jpg" alt="">
+                        <iframe src="./assets/Word 2019 Associate.pdf" frameborder="0" class="certify"></iframe>
+                        <iframe src="./assets/Excel Associate.pdf" frameborder="0" class="certify"></iframe>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <!-- windows-5 Projects -->
+        <div class="window-5">
+            <div class="projects">
+                <h1>Project Page</h1>
+                <!-- <h2>project list</h2> -->
+            </div>
+            <div class="project-container">
+                <div class="project-lists">
+                    <div class="project" id="tr-background">
+                        <div class="label">
+                            <a onclick= popUpC()>Travel</a>
+                        </div>
+                        <div class="pop-up" id="travel">
+                           <div class="pop-up-header">
+                               <h2>Travel</h2>
+                               <span class="pop-btn" onclick= closePopUp()>X</span>
+                           </div>
+                            <img src="./assets/Travel.png" alt="Real-estate.png" class="pop-img">
+                            <a href="http://traveltesthost.tiiny.site" target="_blank" rel="noopener noreferrer" class="visit">
+                                <button class="visit-btn">Visit website</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project" id="re-background">
+                        <div class="label">
+                            <a onclick= popUpD()>Real Estate</a>
+                        </div>
+                        <div class="pop-up" id="real-estate">
+                            <div class="pop-up-header">
+                                <h2>Real Estate</h2>
+                                <span class="pop-btn" onclick= closePopUp()>X</span>
+                            </div>
+                            <img src="./assets/Real estate.png" alt="Real-estate.png" class="pop-img">
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="visit">
+                                <button class="visit-btn">Visit website</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                                        
+        <!-- windows-6 Contact -->
+        <div class="window-6">
+            <div class="contact">
+                <div class="contact_header">
+                    <h1>Contact Page</h1>
+                </div>
+                <div class="form_container">
+                    <form action="" method="post" class="contact_form">
+                        <h2>Contact me :)</h2>
+                        <label class="contact_label" for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                        <label class="contact_label" for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                        <label class="contact_label" for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- javascript link -->
+    <script src="Script.js"></script>
+    
+</body>
+</html>
